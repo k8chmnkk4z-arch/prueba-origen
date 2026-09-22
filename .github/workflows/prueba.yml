@@ -1,0 +1,11 @@
+name: Prueba ORIGEN
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Evidencia sintetica
+        run: echo "ORIGEN external source test OK"
